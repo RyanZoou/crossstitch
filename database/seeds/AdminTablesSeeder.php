@@ -102,6 +102,14 @@ class AdminTablesSeeder extends Seeder
                     "icon" => "fa-tags",
                     "uri" => "/coupon_codes",
                     "permission" => NULL
+                ],
+                [
+                    "parent_id" => 2,
+                    "order" => 12,
+                    "title" => "Redis管理",
+                    "icon" => "fa-database",
+                    "uri" => "/redis",
+                    "permission" => NULL
                 ]
             ]
         );
@@ -187,6 +195,10 @@ class AdminTablesSeeder extends Seeder
                 [
                     "role_id" => 1,
                     "menu_id" => 2
+                ],
+                [
+                    "role_id" => 1,
+                    "menu_id" => 12
                 ]
             ]
         );
