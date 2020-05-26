@@ -16,7 +16,7 @@ class CouponCodesController extends AdminController
      *
      * @var string
      */
-    protected $title = 'App\Models\CouponCode';
+    protected $title = '优惠券';
 
 
     /**
